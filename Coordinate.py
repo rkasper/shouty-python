@@ -7,6 +7,7 @@ class Coordinate:
         self.__y = y_coord
 
     def distance_from(self, other):
+        return 0
         # TODO: actually calculate distance between the coordinates.
         #       e.g. return abs(self.__x - other.__x)
-        return 0
+        # return abs(self.__x - other.__x)
