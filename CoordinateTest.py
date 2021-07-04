@@ -20,8 +20,8 @@ class CoordinateTest(unittest.TestCase):
     #
     # Use this code to implement Pythagoras' theorem in Coordinate.py:
     #
-    # import math
-    # return hypot(self.x - other.x, self.y - other.y);
+    # from math import hypot
+    # return hypot(self.__x - other.__x, self.__y - other.__y)
 
 if __name__ == '__main__':
     unittest.main()
