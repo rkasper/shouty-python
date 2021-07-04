@@ -1,3 +1,6 @@
+from math import hypot
+
+
 class Coordinate:
     __x: int
     __y: int
@@ -7,6 +10,8 @@ class Coordinate:
         self.__y = y_coord
 
     def distance_from(self, other):
+        # return 0
         # TODO: actually calculate distance between the coordinates.
         #       e.g. return abs(self.__x - other.__x)
-        return 0
+        # return abs(self.__x - other.__x)
+        return hypot(self.__x - other.__x, self.__y - other.__y)

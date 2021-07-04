@@ -9,14 +9,9 @@ SHOUTY = Shouty()
 ARBITRARY_MESSAGE = "Hello, world"
 
 
-@given('Lucy is at {xCoord:d}, {yCoord:d}')
-def step_impl(context, xCoord, yCoord):
-    SHOUTY.set_location("Lucy", Coordinate(xCoord, yCoord))
-
-
-@step('Sean is at {xCoord:d}, {yCoord:d}')
-def step_impl(context, xCoord, yCoord):
-    SHOUTY.set_location("Sean", Coordinate(xCoord, yCoord))
+@given('{name} is at {xCoord:d}, {yCoord:d}')
+def step_impl(context, name, xCoord, yCoord):
+    SHOUTY.set_location(name, Coordinate(xCoord, yCoord))
 
 
 @when('Sean shouts')

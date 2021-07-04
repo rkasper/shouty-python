@@ -13,15 +13,15 @@ class CoordinateTest(unittest.TestCase):
         b = Coordinate(600, 0)
         self.assertEqual(600, a.distance_from(b))
 
-    # def test_itCalculatesTheDistanceFromAnotherCoordinate(self):
-    #     a = Coordinate(0, 0)
-    #     b = Coordinate(300, 400)
-    #     self.assertEqual(500, a.distance_from(b))
-    #
+    def test_itCalculatesTheDistanceFromAnotherCoordinate(self):
+        a = Coordinate(0, 0)
+        b = Coordinate(300, 400)
+        self.assertEqual(500, a.distance_from(b))
+
     # Use this code to implement Pythagoras' theorem in Coordinate.py:
     #
-    # import math
-    # return hypot(self.x - other.x, self.y - other.y);
+    # from math import hypot
+    # return hypot(self.__x - other.__x, self.__y - other.__y)
 
 if __name__ == '__main__':
     unittest.main()
