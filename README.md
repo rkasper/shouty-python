@@ -41,8 +41,16 @@ Then browse to the directory where you downloaded `shouty-python` and open the d
 
 ## Run the tests
 
-In PyCharm
+On Mac or Linux:
+- In PyCharm:
+  - Right-click the file `test-all.sh` > Run 'test-all.sh'
+- Or in a terminal:
+  - Type: `./test-all.sh`
 
-Right-click the file `test-all.sh` > Run 'test-all.sh'
+On Windows:
+- In PyCharm:
+  - Right-click the file `test-all.bat` > Run 'test-all.bat'
+- Or in a terminal:
+  - Type: `cmd.exe /c test-all.bat`
 
 You should expect to see a couple of tests failing. If so, you're ready to roll!
