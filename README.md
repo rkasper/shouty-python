@@ -39,7 +39,7 @@ In PyCharm
 
 Then browse to the directory where you downloaded `shouty-python` and open the directory. The project should now load.
 
-## Insntall Python dependencies
+## Install Python dependencies
 Type: `pip install -r requirements.txt`
 
 ## Run the tests
