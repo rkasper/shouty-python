@@ -15,7 +15,7 @@ That is, if you're attending an awesome course on technical agility.
 
 ## You will need
 
-1. A Python IDE (e.g. PyCharm)
+1. A Python IDE (e.g. [PyCharm](https://www.jetbrains.com/pycharm/))
 2. Python 3
 3. Behave support for your IDE (It's built-in to PyCharm)
 
