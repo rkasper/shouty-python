@@ -18,7 +18,7 @@ class CoordinateTest(unittest.TestCase):
         b = Coordinate(300, 400)
         self.assertEqual(500, a.distance_from(b))
 
-    # Use this code to implement Pythagoras' theorem in Coordinate.py:
+    # Use this code to implement the Pythagorean theorem in Coordinate.py:
     #
     # from math import hypot
     # return hypot(self.__x - other.__x, self.__y - other.__y)
